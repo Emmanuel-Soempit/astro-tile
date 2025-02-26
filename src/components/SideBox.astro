@@ -2,5 +2,5 @@
 const { children } = Astro.props;
 ---
 <ul class="flex flex-col gap-[4%] w-full lg:w-[30%] col-span-1 lg:max-h-screen lg:h-screen h-[120vh] min-h-screen">
-  {children}
+  <slot/>
 </ul>
